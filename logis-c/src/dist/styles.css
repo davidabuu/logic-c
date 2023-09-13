@@ -1,9 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,300&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-
+:root {
+  --primary-color: #ff4d30; /* Define your primary color here */
+}
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
@@ -11,7 +15,8 @@ html {
 
 body {
   background-color: #ffffff;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Serif", serif;
+
   position: relative;
 }
 
@@ -711,31 +716,37 @@ body {
 .info-form__1col {
   grid-template-columns: 1fr !important;
 }
-.info-form__2col, .info-form__1col {
+.info-form__2col,
+.info-form__1col {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
   padding: 1rem 0;
 }
 @media (max-width: 650px) {
-  .info-form__2col, .info-form__1col {
+  .info-form__2col,
+  .info-form__1col {
     grid-template-columns: 1fr;
   }
 }
-.info-form__2col span, .info-form__1col span {
+.info-form__2col span,
+.info-form__1col span {
   display: flex;
   flex-direction: column;
   gap: 0.4rem;
 }
-.info-form__2col span label, .info-form__1col span label {
+.info-form__2col span label,
+.info-form__1col span label {
   font-size: 1.6rem;
   font-weight: 500;
   color: #777777;
 }
-.info-form__2col span label b, .info-form__1col span label b {
+.info-form__2col span label b,
+.info-form__1col span label b {
   color: #ff4d30;
 }
-.info-form__2col span input, .info-form__1col span input {
+.info-form__2col span input,
+.info-form__1col span input {
   padding: 14px 15px;
   background-color: #dbdbdb;
   color: #555;
@@ -1518,7 +1529,8 @@ footer {
   line-height: 1.7;
   margin-bottom: 3rem;
 }
-.footer-content__1 li:nth-child(3), .footer-content__1 li:nth-child(4) {
+.footer-content__1 li:nth-child(3),
+.footer-content__1 li:nth-child(4) {
   font-size: 1.6rem;
   font-family: "Rubik", sans-serif;
   font-weight: 500;
@@ -1885,7 +1897,7 @@ footer {
   grid-template-columns: 1fr 1fr;
   row-gap: 2rem;
   -moz-column-gap: 7rem;
-       column-gap: 7rem;
+  column-gap: 7rem;
   margin-top: 2.5rem;
   margin: 2rem auto;
   padding-bottom: 2.5rem;

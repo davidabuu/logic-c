@@ -53,10 +53,10 @@ function Hero() {
                 >
                   Book Ride &nbsp; <i className="fa-solid fa-circle-check"></i>
                 </Link>
-                <Link className="hero-content__text__btns__learn-more" to="/">
+                <Link className="hero-content__text__btns__learn-more" to="/register">
                   Sign Up as a Driver &nbsp; <i className="fa-solid fa-angle-right"></i>
                 </Link>
-                <Link className="hero-content__text__btns__learn-more" to="/">
+                <Link className="hero-content__text__btns__learn-more" to="/register">
                   Sign Up as a Car Owner &nbsp; <i className="fa-solid fa-angle-right"></i>
                 </Link>
               </div>

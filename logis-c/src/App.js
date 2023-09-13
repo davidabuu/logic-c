@@ -6,7 +6,9 @@ import { Route, Routes } from "react-router-dom";
 import Models from "./Pages/Models";
 import TestimonialsPage from "./Pages/TestimonialsPage";
 import Team from "./Pages/Team";
+import Register from '../src/components/Register'
 import Contact from "./Pages/Contact";
+import Login from '../src/components/Login'
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
         <Route path="testimonials" element={<TestimonialsPage />} />
         <Route path="team" element={<Team />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="register" element={<Register />} />
+        <Route path="login" element={<Login />} />
       </Routes>
     </>
   );
