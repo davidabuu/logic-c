@@ -9,7 +9,8 @@ import Team from "./Pages/Team";
 import Register from '../src/components/Register'
 import Contact from "./Pages/Contact";
 import Login from '../src/components/Login'
-import Dashboard from "./components/CustomerDashBoard/Dashboard";
+import Dashboard from "./components/CustomerDashBoard/ReserveVehicles";
+import Reservations from "./components/CustomerDashBoard/Reservations";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="register" element={<Register />} />
         <Route path="login" element={<Login />} />
         <Route path="customer/dashboard" element={<Dashboard />} />
+        <Route path="customer/reservations" element={<Reservations />} />
       </Routes>
     </>
   );

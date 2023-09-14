@@ -3,7 +3,7 @@ import Header from "./Header";
 import '../../styles/CustomerDashBoardStyles/style.css'
 import Search from "./HandleSearch";
 import VehicleDetails from "./VehiclesDetails";
-function Dashboard() {
+function ReservedVehicles() {
   // Sample customer data
   const customerName = "John Doe";
   const customerEmail = "johndoe@example.com";
@@ -39,4 +39,4 @@ function Dashboard() {
   );
 }
 
-export default Dashboard;
+export default ReservedVehicles;

@@ -1,0 +1,80 @@
+
+.reservation-dashboard {
+    padding: 50px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+  }
+  
+  .reservation-info {
+    text-align: right;
+  }
+  
+  .reservation-info p {
+    margin: 5px 0;
+    font-size: 20px;
+  }
+  
+  .reservations {
+    margin-bottom: 20px;
+    padding: 0px 20%;
+  }
+  
+  .reservations h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .reservation {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .reservation img {
+    max-width: 50%;
+    margin-right: 10px;
+  }
+  
+  .car-details {
+    font-size: 20px;
+    flex-grow: 1;
+  }
+  
+  .car-details h3 {
+    margin: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      text-align: center;
+    }
+    .reservation-dashboard {
+        padding: 30px;
+      }
+      
+    .reservations{
+        padding: 0;
+    }
+  
+    .header h1 {
+      font-size: 20px;
+    }
+  }
+@media(max-width:500px){
+    .car-details {
+        font-size: 15px;
+      
+      }
+}
