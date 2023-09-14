@@ -9,11 +9,12 @@ import Team from "./Pages/Team";
 import Register from '../src/components/Register'
 import Contact from "./Pages/Contact";
 import Login from '../src/components/Login'
+import Dashboard from "./components/CustomerDashBoard/Dashboard";
 
 function App() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <Routes>
         <Route index path="/" element={<Home />} />
         <Route path="about" element={<About />} />
@@ -23,6 +24,7 @@ function App() {
         <Route path="contact" element={<Contact />} />
         <Route path="register" element={<Register />} />
         <Route path="login" element={<Login />} />
+        <Route path="customer/dashboard" element={<Dashboard />} />
       </Routes>
     </>
   );
